@@ -1,0 +1,94 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "MREDGARCROSS",
+    "motivations": "I have many years of experience in learning blockchain. On my YouTube channel I have been making educational and motivational videos about the CARDANO company for many years. Many of my subscribers know me as a supporter of the cardano company. I think if I make a proposal to delegate votes to me as DRep in my region, then many people will agree. I have many years of experience teaching blockchain - there are courses that I created. I have been teaching for many years how to buy ADA - how to drain a coin.",
+    "objectives": "Representative of the Cardano company in your country and region. Head of the Cordano training center. Ambassador.\nI have been studying blockchain technology for more than 7 years. I am a long-term investor - including Cardano. For many years, I also shot videos and popularized Cordano on my YouTube channel. I'm a cardano fan - a supporter of the company. I want to participate in the life of the company and be part of the company. Since now such an opportunity has arisen, I want to participate.",
+    "paymentAddress": "addr1qxqnnsp3e2e7km9fgpptps8ycwp8lk7gw32vg2wx9gc5egs62kedqlmqasp6ks25r2fapnzrkhgxqsndpd2ht422nk7szh8lhf",
+    "qualifications": "A video blogger since 2013, I talk about blockchain technology.\nFor many years I have been selling my own video courses - blockchain investment training.\nThere is a closed community of like-minded people in Telegram using blockchain.\nIn my lessons there is a section dedicated to the Cardano company.\nI run different social networks - I am active.\nIn my lessons I can talk about the possibility of voting and offer myself as DRep.",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "youtube - Мысля от Эдгара 120000 subscribers",
+        "uri": "https://www.youtube.com/@MrEdgarcross"
+      },
+      {
+        "@type": "Link",
+        "label": "My website - social networks and blockchain lessons",
+        "uri": "https://mredgarcross.com/"
+      },
+      {
+        "@type": "Link",
+        "label": "LESSON “LEDGER COLD CRYPTO WALLET” | METAMASK",
+        "uri": "https://edgarbagdasarian.justclick.ru/LEDGER"
+      },
+      {
+        "@type": "Identity",
+        "label": "twitter",
+        "uri": "https://twitter.com/MrEdgarcross"
+      },
+      {
+        "@type": "Identity",
+        "label": "social network VKontakte",
+        "uri": "https://vk.com/mredgarcross"
+      },
+      {
+        "@type": "Identity",
+        "label": "PERSONAL TELEGRAM",
+        "uri": "https://t.me/Mredgarcross"
+      }
+    ]
+  }
+}
